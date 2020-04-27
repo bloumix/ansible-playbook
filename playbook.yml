@@ -1,4 +1,4 @@
-host: localhost
+- host: localhost
 
   tasks:
     - name: "Verify ansible version"
