@@ -1,0 +1,6 @@
+host: localhost
+
+  tasks:
+    - name: "Verify ansible version"
+      debug:
+        msg: "Ansible version is : {{ ansible_version.full }}"
